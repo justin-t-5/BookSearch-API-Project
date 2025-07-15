@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
+/* Center the whole dashboard container */
+.dashboard {
+  max-width: 900px;
+  margin: 40px auto; /* auto left/right margins centers it */
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center; /* center text inside */
+}
+
+/* Center heading */
+.dashboard h1 {
+  margin-bottom: 1rem;
+}
+
+/* Center the stats text */
+.stats {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 12px;
+  background-color: #edf2f7;
+  border-radius: 8px;
+}
+
+/* Center controls container */
+.controls {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* Search bar and dropdown get fixed widths to look neat */
+.search-bar,
+.filter-dropdown {
+  width: 250px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #1a202c;
+}
+
+/* Book list left aligned but container centered */
+.book-list {
+  list-style: none;
+  padding: 0;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  max-width: 600px; /* optional: limit width */
+  text-align: left;
 }
