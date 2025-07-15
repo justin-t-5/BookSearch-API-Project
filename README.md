@@ -1,11 +1,12 @@
 # BookSearch-API-Project
-# Web Development Project 5 - *Name of App Here*
+# Web Development Project 5 - BookSearch
 
-Submitted by: **Your Name Here**
+Submitted by: Justin Tamay
 
-This web app: **insert description**
+This web app: This React app is a dynamic book dashboard that fetches data from the OpenLibrary API, allowing users to search and filter books by title and publication year while displaying key summary statistics about the results in real time.
 
-Time spent: **X** hours spent in total
+
+Time spent: 7 hours spent in total
 
 ## Required Features
 
@@ -51,7 +52,7 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-I initially wanted to create a project with the SeatGeek api but I could not get access to it and had to switch to the OpenLibrary/BookSearch API.
+I initially wanted to create a project with the SeatGeek api but I could not get access to it and had to switch to the OpenLibrary/BookSearch API and had less time because I wasn't prepared to switch at the last minute.
 ## License
 
     Copyright [yyyy] [name of copyright owner]
