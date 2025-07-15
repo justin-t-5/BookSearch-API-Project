@@ -53,9 +53,10 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 I initially wanted to create a project with the SeatGeek api but I could not get access to it and had to switch to the OpenLibrary/BookSearch API and had less time because I wasn't prepared to switch at the last minute.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Justin Tamay]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
