@@ -47,8 +47,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+I had issues with npm run dev and was very frustrated but I got it working again after finding out the issue with copilot, the charts were also new this week so it was tedious figuring them out.
 ## License
 
     Copyright [2025] [Justin Tamay]
